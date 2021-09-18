@@ -18,6 +18,14 @@ body {
     animation: jump 0.5s infinite;
 }
 
+.circle:nth-of-type(2) {
+    animation-delay: 0.1s;
+}
+
+.circle:nth-of-type(3) {
+    animation-delay: 0.2s;
+}
+
 @keyframes jump {
     0%, 100%{
         transform: translateY(0);
