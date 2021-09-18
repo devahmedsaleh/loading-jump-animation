@@ -15,4 +15,14 @@ body {
     border-radius: 50%;
     background-color: white;
     margin: 5px;
+    animation: jump 0.5s infinite;
+}
+
+@keyframes jump {
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
 }
